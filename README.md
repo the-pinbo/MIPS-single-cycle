@@ -29,7 +29,7 @@ add $t0, $t0, $t3
 beq $t1, $zero, done
 beq $t1, $t1, loop #actually jump (because $t1 = $t1)
 done:
-#end
+nop
 ```
 
 The program computes the sum of the first 16 values from the data memory.
