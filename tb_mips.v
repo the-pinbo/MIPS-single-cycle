@@ -1,3 +1,5 @@
+`include "mips.v"
+
 module tb_mips;
 //cpu testbench
 
