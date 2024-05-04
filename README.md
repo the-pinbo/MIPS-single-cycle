@@ -3,8 +3,8 @@ MIPS single cycle Verilog implementation based on Computer Organization and Desi
 
 ##Overview
 The implementation supports 1 cycle per instruction add, sub, lw, sw, beq and slt.
-Based on the implementation scheme from chapter 5, The Processor: Datapath and Control of Computer 
-Organization and Design by David A. Patterson and John L. Hennessy, 3rd edition.
+Based on the implementation scheme from chapter 4, The Processor: Datapath and Control of Computer 
+Organization and Design by David A. Patterson and John L. Hennessy, 5th edition.
 The memory is structured in 32-bit words.
 
 The instruction memory file, meminstr.dat contains the codes for the following program:
